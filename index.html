@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Sivasakthi</title>
+    <meta name="title" content="Adex" />
+    <meta
+      name="description"
+      content="This is a business agency html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logow.png"
+            width="54"
+            height="24"
+            alt="Adex home"
+            class="logo-light"
+          />
+
+          <img
+            src="./assets/images/logo.png"
+            width="54"
+            height="24"
+            alt="Adex home"
+            class="logo-dark"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logow.png"
+                width="54"
+                height="24"
+                alt="Adex home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#services" class="navbar-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:sivasakthibodi2001@gmail.com" class="contact-link"
+              >sivasakthibodi2001@gmail.com</a
+            >
+
+            <a href="tel:9942870011" class="contact-link">9942870011</a>
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-primary">Login</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Welcome to Sivasakthi</h1>
+
+              <p class="hero-text">
+                "Quality You Can See, Service You Can Trust."
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="#services" class="btn btn-primary">Explore Now</a>
+
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+              </div>
+            </div>
+
+            <div class="hero-slider" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/hero-slide-1.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/hero-slide-2.jpg"
+                          width="575"
+                          height="550"
+                          alt="hero banner"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      </button>
+                    </div>
+                  </li>
+
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/hero-slide-3.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
+
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service"
+          aria-labelledby="service-label"
+          id="services"
+        >
+          <div class="container">
+            <p class="section-subtitle" id="service-label">What We Do?</p>
+
+            <h2 class="h3 card-title" style="margin-bottom: 2%">
+              Sivasakthi offers a broad spectrum of high-quality document
+              services for both business and personal needs, backed by our
+              dedicated team of experts. <br /><br />
+              <u> Here's what we can do for you:</u>
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <ion-icon name="print" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">Xerox & Printout Services</h3>
+
+                  <p class="card-text">
+                    We offer top-notch photocopying services to reproduce your
+                    documents with precision and clarity.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">Typewriting</h3>
+
+                  <p class="card-text">
+                    Our typewriting experts can assist you with creating neatly
+                    typed documents.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <ion-icon name="document" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <h3 class="h4 card-title">Documentation Services</h3>
+
+                  <p class="card-text">
+                    From document preparation to formatting, we ensure your
+                    documents look their best.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-print"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">Lamination & Lamination Removal</h3>
+
+                  <p class="card-text">
+                    Protect your important documents with our lamination
+                    services, and if needed, we can safely and efficiently
+                    remove lamination from your documents.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">Spiral Binding</h3>
+
+                  <p class="card-text">
+                    For professional reports and presentations, we offer spiral
+                    binding services to give your documents a polished finish.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-wrench"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">e-Services</h3>
+
+                  <p class="card-text">
+                    Experience the convenience of our e-services, including
+                    document scanning and online submissions.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-ribbon"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">Court Document Filing</h3>
+
+                  <p class="card-text">
+                    Our experts can assist you with the filing of court
+                    documents, ensuring accuracy and compliance with legal
+                    requirements.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="height: 100%">
+                  <div class="card-icon">
+                    <i class="fas fa-stamp"></i>
+                  </div>
+
+                  <h3 class="h4 card-title">Stamps</h3>
+
+                  <p class="card-text">
+                    We provide a range of stamp services, including notary and
+                    custom stamp creation, for all your legal document needs.
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="about" aria-labelledby="about-label">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                loading="lazy"
+                alt="about banner"
+                width="85%"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle" id="about">Why Choose Us?</p>
+
+              <h2 class="h2 section-title">
+                We take pride in being your trusted partner for all your
+                document needs.
+              </h2>
+
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card expanded" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">Quality and Precision</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      We are committed to delivering top-notch document services
+                      with unmatched quality and precision. Your documents will
+                      always look their best.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">Experienced Team</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      Our experienced team of professionals understands the
+                      nuances of document handling and can provide expert advice
+                      and assistance for your specific requirements.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">Legal Document Experts</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      When it comes to court document filing and stamp services,
+                      our experts ensure accuracy and compliance with legal
+                      requirements, providing you with peace of mind.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURE
+      -->
+
+        <section class="section feature" aria-labelledby="feature-label">
+          <div class="container">
+            <figure class="feature-banner">
+              <img
+                src="./assets/images/feature-banner.png"
+                width="800"
+                height="531"
+                loading="lazy"
+                alt="feature banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="feature-content">
+              <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+              <h2 class="h2 section-title">
+                we provide a wide range of document solutions to cater to your
+                diverse needs.
+              </h2>
+
+              <p class="section-text">
+                we understand the importance of clear and professional documents
+                for your business and personal needs. Our Xerox and printing
+                solutions are designed to exceed your expectations and leave a
+                lasting impression.
+              </p>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Color Printing </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Black and White Printing </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Custom Printing </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Large Format Printing </span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> High-Volume Printing</span>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span"> Quality Paper Selection </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #STATS
+      -->
+
+        <section class="stats" aria-label="our stats">
+          <div class="container">
+            <ul
+              class="stats-card has-bg-image"
+              style="background-image: url('./assets/images/stats-bg.jpg')"
+            >
+              <li>
+                <p class="card-text">
+                  <span class="h1">7518</span>
+
+                  <spna class="span">Completed Works</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">316</span>
+
+                  <spna class="span">Happy Customers</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">12</span>
+
+                  <spna class="span">Expert Employees</spna>
+                </p>
+              </li>
+
+              <li>
+                <p class="card-text">
+                  <span class="h1">2011</span>
+
+                  <spna class="span">Service started since</spna>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section
+          class="section project"
+          aria-labelledby="project-label"
+        ></section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="cta" aria-label="call to action" id="contact">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Join our community by using our services.
+            </h2>
+
+            <a href="#" class="btn btn-primary">Home </a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logow.png"
+              width="74"
+              height="24"
+              alt="Adex home"
+            />
+          </a>
+
+          <p class="footer-text">
+            &copy; 2011 sivasakthi <br />
+            All rights reserved.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in Touch</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              Sivasakthi xerox, ZKM hr sec school opp, PH Road, bodinayakanur,
+              Theni(Dt)-635513
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:sivasakthibodi2001@gmail.com" class="footer-link"
+              >sivasakthibodi2001@gmail.com</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:9942870011" class="footer-link">9942870011</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Work Nature</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="h4 footer-list-title">Our Newsletter</p>
+
+          <p class="footer-text">
+            Subscribe to our newsletter to get our news & deals delivered to
+            you.
+          </p>
+
+          <form action="" class="input-wrapper">
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="input-field"
+            />
+
+            <button type="submit" class="submit-btn">Join</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
